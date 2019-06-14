@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA05FE3522B3308C00B99FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA05FE3422B3308C00B99FB5 /* AppDelegate.swift */; };
+		CA05FE3722B3308C00B99FB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA05FE3622B3308C00B99FB5 /* ViewController.swift */; };
+		CA05FE3D22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA05FE3B22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodeld */; };
+		CA05FE3F22B3308F00B99FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA05FE3E22B3308F00B99FB5 /* Assets.xcassets */; };
+		CA05FE4222B3308F00B99FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA05FE4022B3308F00B99FB5 /* LaunchScreen.storyboard */; };
+		CA05FE4E22B3313E00B99FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA05FE4D22B3313E00B99FB5 /* Main.storyboard */; };
+		CA05FE5222B3434B00B99FB5 /* TVConsultorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA05FE5122B3434B00B99FB5 /* TVConsultorio.swift */; };
+		CA05FE5422B3442000B99FB5 /* VCConsultorio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA05FE5322B3442000B99FB5 /* VCConsultorio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA05FE3122B3308C00B99FB5 /* ConsultoriosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsultoriosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA05FE3422B3308C00B99FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA05FE3622B3308C00B99FB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA05FE3C22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConsultoriosApp.xcdatamodel; sourceTree = "<group>"; };
+		CA05FE3E22B3308F00B99FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA05FE4122B3308F00B99FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA05FE4322B3308F00B99FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA05FE4D22B3313E00B99FB5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CA05FE5122B3434B00B99FB5 /* TVConsultorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TVConsultorio.swift; path = ../TVConsultorio.swift; sourceTree = "<group>"; };
+		CA05FE5322B3442000B99FB5 /* VCConsultorio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCConsultorio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA05FE2E22B3308C00B99FB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA05FE2822B3308C00B99FB5 = {
+			isa = PBXGroup;
+			children = (
+				CA05FE3322B3308C00B99FB5 /* ConsultoriosApp */,
+				CA05FE3222B3308C00B99FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA05FE3222B3308C00B99FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA05FE3122B3308C00B99FB5 /* ConsultoriosApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA05FE3322B3308C00B99FB5 /* ConsultoriosApp */ = {
+			isa = PBXGroup;
+			children = (
+				CA05FE5122B3434B00B99FB5 /* TVConsultorio.swift */,
+				CA05FE4D22B3313E00B99FB5 /* Main.storyboard */,
+				CA05FE5322B3442000B99FB5 /* VCConsultorio.swift */,
+				CA05FE3422B3308C00B99FB5 /* AppDelegate.swift */,
+				CA05FE3622B3308C00B99FB5 /* ViewController.swift */,
+				CA05FE3E22B3308F00B99FB5 /* Assets.xcassets */,
+				CA05FE4022B3308F00B99FB5 /* LaunchScreen.storyboard */,
+				CA05FE4322B3308F00B99FB5 /* Info.plist */,
+				CA05FE3B22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodeld */,
+			);
+			path = ConsultoriosApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA05FE3022B3308C00B99FB5 /* ConsultoriosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA05FE4622B3308F00B99FB5 /* Build configuration list for PBXNativeTarget "ConsultoriosApp" */;
+			buildPhases = (
+				CA05FE2D22B3308C00B99FB5 /* Sources */,
+				CA05FE2E22B3308C00B99FB5 /* Frameworks */,
+				CA05FE2F22B3308C00B99FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsultoriosApp;
+			productName = ConsultoriosApp;
+			productReference = CA05FE3122B3308C00B99FB5 /* ConsultoriosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA05FE2922B3308C00B99FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Jeanette;
+				TargetAttributes = {
+					CA05FE3022B3308C00B99FB5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CA05FE2C22B3308C00B99FB5 /* Build configuration list for PBXProject "ConsultoriosApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA05FE2822B3308C00B99FB5;
+			productRefGroup = CA05FE3222B3308C00B99FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA05FE3022B3308C00B99FB5 /* ConsultoriosApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA05FE2F22B3308C00B99FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA05FE4E22B3313E00B99FB5 /* Main.storyboard in Resources */,
+				CA05FE4222B3308F00B99FB5 /* LaunchScreen.storyboard in Resources */,
+				CA05FE3F22B3308F00B99FB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA05FE2D22B3308C00B99FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA05FE3722B3308C00B99FB5 /* ViewController.swift in Sources */,
+				CA05FE5422B3442000B99FB5 /* VCConsultorio.swift in Sources */,
+				CA05FE3D22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodeld in Sources */,
+				CA05FE3522B3308C00B99FB5 /* AppDelegate.swift in Sources */,
+				CA05FE5222B3434B00B99FB5 /* TVConsultorio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA05FE4022B3308F00B99FB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA05FE4122B3308F00B99FB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA05FE4422B3308F00B99FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA05FE4522B3308F00B99FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA05FE4722B3308F00B99FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultoriosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeanette.moreno.ConsultoriosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA05FE4822B3308F00B99FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultoriosApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeanette.moreno.ConsultoriosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA05FE2C22B3308C00B99FB5 /* Build configuration list for PBXProject "ConsultoriosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA05FE4422B3308F00B99FB5 /* Debug */,
+				CA05FE4522B3308F00B99FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA05FE4622B3308F00B99FB5 /* Build configuration list for PBXNativeTarget "ConsultoriosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA05FE4722B3308F00B99FB5 /* Debug */,
+				CA05FE4822B3308F00B99FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA05FE3B22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA05FE3C22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodel */,
+			);
+			currentVersion = CA05FE3C22B3308C00B99FB5 /* ConsultoriosApp.xcdatamodel */;
+			path = ConsultoriosApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA05FE2922B3308C00B99FB5 /* Project object */;
+}
